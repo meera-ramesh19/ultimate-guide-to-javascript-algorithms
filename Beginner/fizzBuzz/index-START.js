@@ -5,24 +5,9 @@
     multiples of both three and five print “FizzBuzz”.
 */
 
-1.721 s,
+//
+//1.721 s,
 
-// function fizzBuzz(n) {
-//     // Code goes here
-//     for (let i = 1; i <= n; i++) {
-//         if (i % 15 === 0) {
-//             console.log('fizzbuzz')
-//         } else if (i % 5 === 0) {
-//             console.log('buzz')
-//         } else if (i % 3 === 0) {
-//             console.log('fizz')
-//         } else {
-//             console.log(i)
-//         }
-
-
-//     }
-// }
 
 function fizzBuzz(n) {
     for (let i = 1; i <= n; i++) {
@@ -43,9 +28,6 @@ function fizzBuzz(n) {
 }
 
 
-function fizzBuzz(n) {
-    for (let i = 0; i < n;)
-        console.log((++i % 3 ? '' : 'fizz') + (i % 5 ? '' : 'buzz') || i)
-}
+
 
 module.exports = fizzBuzz

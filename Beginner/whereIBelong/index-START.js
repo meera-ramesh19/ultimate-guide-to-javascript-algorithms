@@ -10,7 +10,13 @@ than 1(index 0), but less than 2(index 1).
 
 
 function whereIBelong(arr, num) {
-   // Code goes here
+    // Code goes here
+    arr.forEach((item) => {
+        if (item > num) {
+            let ind = arr.indexOf(item)
+        }
+    })
+    return narr.splice(ind - 1, 0, num)
 
 }
 

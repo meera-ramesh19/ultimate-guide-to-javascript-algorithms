@@ -5,8 +5,15 @@
 */
 
 function chunkArray(array, size) {
-    // Code goes here
-}
+    let result = []
 
+    let arrayCopy = [...array]
+
+    while (arrayCopy.length > 0) {
+        result.push(arrayCopy.splice(0, size))
+    }
+
+    return result
+}
 
 module.exports = chunkArray

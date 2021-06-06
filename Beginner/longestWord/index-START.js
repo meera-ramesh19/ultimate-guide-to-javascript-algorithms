@@ -7,6 +7,12 @@ E.g reverseString('algorithms') // should return 'smhtirogla'
 
 function longestWord(text) {
     // Code goes here
+    text = text.split('')
+    return text.reduce((max, curr) => {
+        if (max.length > curr.length) {
+            return max
+        } else { return curr }
+    })
 }
 
 

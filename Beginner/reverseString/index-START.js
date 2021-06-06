@@ -3,19 +3,21 @@ Given a string of text, write an algorithm that returns the text received in a r
 E.g reverseString('algorithms') // should return 'smhtirogla'
 */
 
-
+//1.961
 
 // function reverseString(text) {
 //     // Code goes here
 //     return [...text].reverse().join('')
 // }
 
-
+//2.41
 // function reverseString(text) {
 //     // Code goes here
 //     return [...text].reduce((acc, char) => char + acc, '')
 
 // }
+//1.711
+
 // function reverseString(text) {
 //     // Code goes here
 //     let result = ''
@@ -25,7 +27,7 @@ E.g reverseString('algorithms') // should return 'smhtirogla'
 //     return result
 
 // }
-1.6825
+//2.266
 
 function reverseString(text) {
     // Code goes here

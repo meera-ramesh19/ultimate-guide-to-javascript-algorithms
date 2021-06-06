@@ -10,7 +10,8 @@ don't. E.g
 function isAnagram(stringA, stringB) {
     // Code goes here
 
+    stringA = stringA.split('').sort().join('')
+    stringB = stringB.split('').sort().join('')
+    return stringA === stringB
 }
-
-
 module.exports = isAnagram
